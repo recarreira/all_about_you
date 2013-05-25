@@ -3,9 +3,7 @@
   {% endfor %}
 <hr/>
 <p>
-  {% for s in site.social %}
-    {{ s | social_link }}<br/>
+  {% for link in site.links %}
+    {{ link | custom_link }}<br/>
   {% endfor %}
 </p>
-
-

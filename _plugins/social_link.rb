@@ -12,6 +12,12 @@ module Jekyll
       end
       "<a href='#{link}' class='fc-webicon #{service}' title='#{service}'>#{service}</a>"
     end
+    def custom_link(input)
+      title = input["title"]
+      url = input["url"]
+
+      "<a href='#{url}' title='#{title}'>#{title}</a>"
+    end
   end
 end
 
