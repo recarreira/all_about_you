@@ -5,6 +5,8 @@
 name: Mr Awesome
 title: Just a Legendary Person
 location: "Puppy Town - Rainbow City"
+email: roberto.tech@gmail.com
+gravatar_photo: true
 # don't forget to edit your "about" on _includes/about.md
 # for more information about markdown, consider giving a look at some examples and basics in the follow urls:
 # http://daringfireball.net/projects/markdown/basics
