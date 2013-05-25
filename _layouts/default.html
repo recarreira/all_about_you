@@ -30,9 +30,9 @@
               </div>
               <div class="contact">
                 <p>
-                <a href="http://github.com/{{ site.social.github }}/">github.com/{{ site.social.github }}</a><br />
-
-                <a href="http://twitter.com/{{ site.social.twitter }}/">twitter.com/{{ site.social.twitter }}</a><br />
+                  {% for s in site.social %}
+                    {{ s | social_link }}<br/>
+                  {% endfor %}
                 </p>
               </div>
             </div>
