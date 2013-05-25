@@ -20,8 +20,17 @@ gravatar_photo: true
 # Put your usernames here. Only usernames, without links.
 
 social:
-  twitter: bt1
+  facebook:
+  flickr:
+  foursquare:
   github: roberto
+  googleplus:
+  lastfm:
+  linkedin:
+  quora:
+  stackoverflow:
+  twitter: bt1
+
 
 # Now you should put your links.
 
