@@ -3,6 +3,8 @@ module Jekyll
     def social_link(input)
       service, username = input
 
+      return "" if username.nil?
+
       if service == "twitter"
         link = "http://twitter.com/#{username}"
       elsif service == "github"
