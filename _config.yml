@@ -1,7 +1,41 @@
-name: Your New Jekyll Site
+# ----------------------- #
+#      User Configs       #
+# ----------------------- #
 
-exclude: ['Gemfile', 'Gemfile.lock']
+name: Mr Awesome
+title: Just a Legendary Person
+location: "Puppy Town - Rainbow City"
+# don't forget to edit your "about" on _includes/about.md
+# for more information about markdown, consider giving a look at some examples and basics in the follow urls:
+# http://daringfireball.net/projects/markdown/basics
+# http://en.wikipedia.org/wiki/Markdown
+
+
+# ----------------------- #
+#      Social Configs     #
+# ----------------------- #
+
+# Put your usernames here. Only usernames, without links.
 
 social:
   twitter: bt1
   github: roberto
+
+# Now you should put your links.
+
+links:
+  -
+    title: "Put Stuff on My Cat! (I would do, if i had one)"
+    url: "http://stuffonmycat.com/"
+  -
+    title: "Funny Dog! (so my dog don't have to be jealous)"
+    url: "http://www.funnydogsite.com/"
+
+
+# ----------------------- #
+#      Project Configs    #
+# ----------------------- #
+
+# Only make changes here if you _realy_ know what you're doing. Just an advice.
+
+exclude: ['Gemfile', 'Gemfile.lock']
