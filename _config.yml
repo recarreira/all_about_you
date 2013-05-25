@@ -1,5 +1,7 @@
 name: Your New Jekyll Site
 
+exclude: ['Gemfile', 'Gemfile.lock']
+
 social:
   twitter: bt1
   github: roberto
