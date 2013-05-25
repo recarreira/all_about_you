@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/cs/jekyll-asset-pipeline.git
+  revision: a7ec07be2d6b802aa969be56acf73a71845b4d7d
+  branch: loosen-dependency-on-jekyll-to-work-with-1.0.0
+  specs:
+    jekyll-asset-pipeline (0.1.5)
+      jekyll (>= 0.12)
+      liquid (~> 2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,6 +37,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     safe_yaml (0.7.1)
+    sass (3.2.9)
     syntax (1.0.0)
     yajl-ruby (1.1.0)
 
@@ -36,3 +46,5 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-asset-pipeline!
+  sass
