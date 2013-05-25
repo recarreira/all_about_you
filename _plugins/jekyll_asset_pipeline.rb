@@ -3,6 +3,7 @@ require 'jekyll_asset_pipeline'
 module JekyllAssetPipeline
   class CompassConverter < JekyllAssetPipeline::Converter
     require 'compass'
+    require 'bootstrap-sass'
     require 'tempfile'
 
     def self.filetype
