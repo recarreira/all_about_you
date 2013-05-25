@@ -6,14 +6,16 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
         {% css_asset_tag global %}
-        - /_assets/stylesheets/main.sass
+        - /_assets/stylesheets/base.sass
         {% endcss_asset_tag %}
     </head>
     <body>
       <div class="container">
         <div class="row">
           <div id="main-box" class="span5">
-            {{ content }}
+            <span class="content">
+              {{ content }}
+            </span>
             {% include links.html %}
           </div>
         </div>

@@ -10,7 +10,7 @@ module Jekyll
       elsif service == "github"
         link = "https://github.com/#{username}/"
       end
-      "<a href='#{link}' title='#{service}'>#{service}</a>"
+      "<a href='#{link}' class='fc-webicon #{service}' title='#{service}'>#{service}</a>"
     end
   end
 end
