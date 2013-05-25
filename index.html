@@ -9,4 +9,6 @@ title: All about me
 {% if site.gravatar_photo %}
 	{{ site.email | to_gravatar }}
 {% endif %}
+{% capture about %}{% include about.md %}{% endcapture %}
+{{ about | markdownify }}
 </p>
