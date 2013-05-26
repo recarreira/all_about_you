@@ -7,6 +7,6 @@ $icons: facebook flickr foursquare github googleplus lastfm linkedin quora stack
 
 @each $icon in $icons {
   .fc-webicon.#{$icon} {
-    background: image-url("/images/icons/fc-webicon-#{$icon}-m.png");
+    background: url("../images/icons/fc-webicon-#{$icon}-m.png");
   }
 }
