@@ -23,13 +23,16 @@ social:
   facebook:
   flickr:
   foursquare:
-  github: roberto
-  googleplus:
-  lastfm:
+# Note about github: write down your_username/your_repository if you want to show a repository page, instead of your github account.
+  github: recarreira/all_about_you
+# Note about google+: Your googleplus username should be that huge number in your url (example: for https://plus.google.com/u/1/112176414644635750645/posts, your username is 112176414644635750645).
+# For google+ pages, you may find this huge number written down 2 times. We only need it once.
+  googleplus: 112176414644635750645
+  lastfm: mr_awesome_aay
   linkedin:
   quora:
   stackoverflow:
-  twitter: bt1
+  twitter: AboutProject
 
 
 # Now you should put your links.
