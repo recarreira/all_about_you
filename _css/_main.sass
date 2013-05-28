@@ -14,7 +14,9 @@
 
 body
   background-color: $background-color
-  background-image: $background-image
+  @if $background-image != none
+    background-image: url("../images/" + $background-image)
+  
 
 #main-box
   margin: 30px
