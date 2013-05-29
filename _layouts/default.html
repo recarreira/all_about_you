@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ site.name }} - {{ site.title }}</title>
+        <title>{{ site.name }}{% if site.title %} - {{ site.title }}{% endif %}</title>
         <meta name="viewport" content="width=device-width">
         {% css_asset_tag global %}
         - /_css/base.sass
