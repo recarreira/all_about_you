@@ -13,6 +13,8 @@
 @import "icons"
 
 body
+  background-position: 0
+  background-size: 100%
   background-color: $background-color
   @if $background-image != none
     background-image: url("../images/" + $background-image)
@@ -25,7 +27,6 @@ body
   background-color: $box-color
   @if $box-border-rounded
     @include border-radius($box-border-radius)
-
 
   a
     color: $link-color
