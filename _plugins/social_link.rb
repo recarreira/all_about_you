@@ -6,12 +6,15 @@ module Jekyll
       "flickr"        => "http://www.flickr.com/photos/%s/",
       "foursquare"    => "https://foursquare.com/%s",
       "github"        => "https://github.com/%s/",
+      "goodreads"     => "http://www.goodreads.com/user/show/%s",
       "googleplus"    => "https://plus.google.com/%s?rel=author",
+      "instagram"     => "http://instagram.com/%s",
       "lastfm"        => "http://www.lastfm.com.br/user/%s",
       "linkedin"      => "http://www.linkedin.com/in/%s",
       "quora"         => "http://www.quora.com/%s",
       "stackoverflow" => "http://stackoverflow.com/users/%s/",
-      "twitter"       => "http://twitter.com/%s"
+      "twitter"       => "http://twitter.com/%s",
+      "rss"           => "%s"
     }
 
     def social_link(input)
