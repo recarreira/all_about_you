@@ -734,8 +734,18 @@ a:focus {
 }
 
 /* line 9, ./_css/_icons.scss */
+.fc-webicon.goodreads {
+  background: url("../images/icons/fc-webicon-goodreads-m.png");
+}
+
+/* line 9, ./_css/_icons.scss */
 .fc-webicon.googleplus {
   background: url("../images/icons/fc-webicon-googleplus-m.png");
+}
+
+/* line 9, ./_css/_icons.scss */
+.fc-webicon.instagram {
+  background: url("../images/icons/fc-webicon-instagram-m.png");
 }
 
 /* line 9, ./_css/_icons.scss */
@@ -754,6 +764,11 @@ a:focus {
 }
 
 /* line 9, ./_css/_icons.scss */
+.fc-webicon.rss {
+  background: url("../images/icons/fc-webicon-rss-m.png");
+}
+
+/* line 9, ./_css/_icons.scss */
 .fc-webicon.stackoverflow {
   background: url("../images/icons/fc-webicon-stackoverflow-m.png");
 }
@@ -765,10 +780,13 @@ a:focus {
 
 /* line 15, ./_css/_main.sass */
 body {
-  background-color: black;
+  background-position: 0;
+  background-size: 100%;
+  background-color: #65acaf;
+  background-image: url("../images/background.example.jpg");
 }
 
-/* line 21, ./_css/_main.sass */
+/* line 23, ./_css/_main.sass */
 #main-box {
   margin: 30px;
   padding: 30px;
@@ -777,49 +795,49 @@ body {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 30, ./_css/_main.sass */
+/* line 31, ./_css/_main.sass */
 #main-box a {
-  color: #0088cc;
+  color: #0d7e8d;
 }
-/* line 33, ./_css/_main.sass */
+/* line 34, ./_css/_main.sass */
 #main-box a:hover {
-  color: #005580;
+  color: #0a6672;
 }
-/* line 36, ./_css/_main.sass */
+/* line 37, ./_css/_main.sass */
 #main-box h1 {
   color: black;
   font-size: 47px;
   font-family: Raleway;
   font-weight: 600;
 }
-/* line 42, ./_css/_main.sass */
+/* line 43, ./_css/_main.sass */
 #main-box h2 {
   color: black;
   font-size: 16px;
   font-family: Ubuntu;
   font-weight: 600;
 }
-/* line 48, ./_css/_main.sass */
+/* line 49, ./_css/_main.sass */
 #main-box .text {
   color: black;
 }
-/* line 51, ./_css/_main.sass */
+/* line 52, ./_css/_main.sass */
 #main-box .text, #main-box a {
   font-size: 14px;
   font-family: Ubuntu;
   font-weight: 400;
 }
-/* line 56, ./_css/_main.sass */
+/* line 57, ./_css/_main.sass */
 #main-box .text img, #main-box a img {
   float: left;
   margin-right: 10px;
 }
-/* line 60, ./_css/_main.sass */
+/* line 61, ./_css/_main.sass */
 #main-box .social-links {
   display: inline;
   list-style-type: none;
 }
-/* line 64, ./_css/_main.sass */
+/* line 65, ./_css/_main.sass */
 #main-box hr {
   border-left: none;
   border-right: none;
