@@ -30,6 +30,10 @@ module Jekyll
 
       "<a href='#{url}' title='#{title}'>#{title}</a>"
     end
+    def maps_link(location)
+      url = "https://maps.google.com.br/maps?q=%s" % location.gsub(" ", "+")
+      "<a href='#{url}' title='Google Maps'>#{location}</a>"
+    end
   end
 end
 
