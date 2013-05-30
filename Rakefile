@@ -15,7 +15,7 @@ desc "Generate jekyll site"
 task :generate do
   #TODO raise "### You haven't set anything up yet." unless File.directory?()
   puts "## Generating Site with Jekyll"
-  system "jekyll build"
+  system "jekyll build -c profile.yml"
 end
 
 ##############
