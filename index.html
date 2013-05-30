@@ -6,8 +6,8 @@ title: All about me
 <h1>{{ site.name }}</h1>
 <h2>{{ site.title }}</h2>
 <div class="text">
-{% if site.gravatar_photo %}
-	{{ site.email | to_gravatar }}
+{% if site.gravatar_email %}
+	{{ site.gravatar_email | to_gravatar }}
 {% endif %}
 {% capture about %}{% include about.md %}{% endcapture %}
 {{ about | markdownify }}
