@@ -1,0 +1,55 @@
+/* line 1, ./_css/_info_icons-ie7.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'info_icons';
+  font-style: normal;
+  font-weight: normal;
+  /* fix buttons height */
+  line-height: 1em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+
+/* line 13, ./_css/_info_icons-ie7.scss */
+.icon-at {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;');
+}
+
+/* line 14, ./_css/_info_icons-ie7.scss */
+.icon-interests {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;');
+}
+
+/* line 15, ./_css/_info_icons-ie7.scss */
+.icon-email {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;');
+}
+
+/* line 16, ./_css/_info_icons-ie7.scss */
+.icon-tags {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;');
+}
+
+/* line 17, ./_css/_info_icons-ie7.scss */
+.icon-code {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;');
+}
+
+/* line 18, ./_css/_info_icons-ie7.scss */
+.icon-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;');
+}
+
+/* line 19, ./_css/_info_icons-ie7.scss */
+.icon-github {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;');
+}
+
+/* line 20, ./_css/_info_icons-ie7.scss */
+.icon-company {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;');
+}
+
+/* line 21, ./_css/_info_icons-ie7.scss */
+.icon-university {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;');
+}
