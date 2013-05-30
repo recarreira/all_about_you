@@ -4,14 +4,25 @@
 
 name: Mr Awesome
 title: Just a Legendary Person
-location: "Puppy Town - Rainbow City"
-email: awesome@renatacarreira.com
-gravatar_photo: true
 gravatar_email: awesome@renatacarreira.com
 # don't forget to edit your "about" on _includes/about.md
 # for more information about markdown, consider giving a look at some examples and basics in the follow urls:
 # http://daringfireball.net/projects/markdown/basics
 # http://en.wikipedia.org/wiki/Markdown
+
+
+
+# ----------------------- #
+#       Info Configs      #
+# ----------------------- #
+
+info:
+  location: Rio de Janeiro
+  code: Python, Ruby, .NET # Programmer? Put your programming languages and technologies here
+  company: Globo.com
+  university: Estácio de Sá
+  interests: candies, lollipops, cats, puppies
+  email: awesome@renatacarreira.com
 
 
 # ----------------------- #
@@ -24,12 +35,9 @@ social:
   facebook:
   flickr:
   foursquare:
-# Note about github: write down your_username/your_repository if you want to show a repository page, instead of your github account.
   # Note about github: write down your_username/your_repository if you want to show a repository page, instead of your github account.
   github: recarreira/all_about_you
   goodreads:
-# Note about google+: Your googleplus username should be that huge number in your url (example: for https://plus.google.com/u/1/112176414644635750645/posts, your username is 112176414644635750645).
-# For google+ pages, you may find this huge number written down 2 times. We only need it once.
   # Note about google+: Your googleplus username should be that huge number in your url (example: for https://plus.google.com/u/1/112176414644635750645/posts, your username is 112176414644635750645).
   # For google+ pages, you may find this huge number written down 2 times. We only need it once.
   googleplus: 112176414644635750645

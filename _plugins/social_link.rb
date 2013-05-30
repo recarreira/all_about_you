@@ -30,9 +30,19 @@ module Jekyll
 
       "<a href='#{url}' title='#{title}'>#{title}</a>"
     end
-    def maps_link(location)
-      url = "https://maps.google.com.br/maps?q=%s" % location.gsub(" ", "+")
-      "<a href='#{url}' title='Google Maps'>#{location}</a>"
+    def info_link(input)
+      info, detail = input
+      return "" if detail.nil? || detail.to_s.empty?
+
+      case info
+      when "location"
+        url = "https://maps.google.com.br/maps?q=%s" % detail.gsub(" ", "+")
+        "<i class='icon-location'></i><a href='#{url}' title='Google Maps'>#{detail}</a>"
+      when "email"
+        "<i class='icon-#{info}'></i><a href='mailto:#{detail}'>#{detail}</a>"
+      else
+        "<i class='icon-#{info}'></i>#{detail}"
+      end
     end
   end
 end

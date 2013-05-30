@@ -1,8 +1,11 @@
 <p>
-	{{ site.location | maps_link }}
+  {% for info in site.info %}
+    {{ info | info_link }}<br>
+  {% endfor %}
+
 </p>
-  {% for s in site.social %}
-    {{ s | social_link }}
+  {% for social in site.social %}
+    {{ social | social_link }}
   {% endfor %}
 <hr/>
 <p>
