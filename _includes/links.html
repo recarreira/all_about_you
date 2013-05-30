@@ -1,6 +1,6 @@
 <p>
   {% for info in site.info %}
-    {{ info | info_link }}<br>
+    {% if info[1] %}{{ info | info_link }}<br>{% endif %}
   {% endfor %}
 
 </p>
