@@ -68,3 +68,6 @@ links:
 # Only make changes here if you _realy_ know what you're doing. Just an advice.
 
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'profile.yml']
+plugins: ./_legendary/plugins
+layouts: ../layouts
+source: ./_legendary/source

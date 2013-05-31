@@ -19,7 +19,7 @@ module JekyllAssetPipeline
       output = Tempfile.new('compass_output')
       Compass.add_project_configuration()
       Compass.configure_sass_plugin!
-      Compass.compiler.compile("./_css/#{@asset.filename}", output.path)
+      Compass.compiler.compile("./_legendary/source/css/#{@asset.filename}", output.path)
       output.read
     end
   end
