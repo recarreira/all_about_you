@@ -20,5 +20,8 @@ Edit _config.yml
 ## Deploy your page
 
 	rake deploy
+	
+## Page example
 
+[Mr Awesome's Profile](http://renatacarreira.com/all_about_you/)
 
