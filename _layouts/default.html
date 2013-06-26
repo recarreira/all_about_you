@@ -15,6 +15,10 @@
         - /_css/base.sass
         - /_css/info_icons.css
         {% endcss_asset_tag %}
+
+        {% if site.google_analytics_tracking_id %}
+          {% include links.html %}
+        {% endif %}
     </head>
     <body>
       <div class="container">
