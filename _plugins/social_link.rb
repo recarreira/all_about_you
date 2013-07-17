@@ -12,6 +12,7 @@ module Jekyll
       "lastfm"        => "http://www.lastfm.com.br/user/%s",
       "linkedin"      => "http://www.linkedin.com/in/%s",
       "quora"         => "http://www.quora.com/%s",
+      "slideshare"    => "http://www.slideshare.net/%s",
       "stackoverflow" => "http://stackoverflow.com/users/%s/",
       "twitter"       => "http://twitter.com/%s",
       "rss"           => "%s"
