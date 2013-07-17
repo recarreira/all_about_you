@@ -15,6 +15,7 @@ Edit _config.yml
 ## Generate a preview page
 
 	jekyll build --watch
+	jekyll serve
 	open http://localhost:4000
 
 ## Deploy your page
