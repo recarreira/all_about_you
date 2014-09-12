@@ -26,3 +26,12 @@ Edit _config.yml
 
 [Mr Awesome's Profile](http://renatacarreira.com/all_about_you/)
 
+
+### Real people who use:
+
+- [renatacarreira.com](http://renatacarreira.com)
+- [robertosoares.me](http://robertosoares.me)
+- [jbochi.me](http://jbochi.me)
+- [elson.com.br](http://elson.com.br)
+
+If you want a link for your page here, just pull request or ask me to add here. :)
