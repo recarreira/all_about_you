@@ -31,7 +31,6 @@ Edit _config.yml
 
 - [renatacarreira.com](http://renatacarreira.com)
 - [robertosoares.me](http://robertosoares.me)
-- [jbochi.me](http://jbochi.me)
-- [elson.com.br](http://elson.com.br)
+- [thais.rocks](http://thais.rocks)
 
 If you want a link for your page here, just pull request or ask me to add here. :)
